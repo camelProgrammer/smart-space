@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+$Dm-Sans: 'DM Sans', sans-serif;
+$Manrope: 'Manrope', sans-serif;
+$Roboto: 'Roboto', sans-serif;
+
+// Colors
+$primary: #3454d1;
+$dotsColor: #d6ddf6;
+$text: #31353b;
+$white: #ffffff;
+$line: #f1f3fa;
+
+//RWD 550px, 700px, 1050px
+$breakpoints: (
+    'sm': '34.375rem',
+    'md': '43.75rem',
+    'lg': '65.625rem',
+);
+
+@mixin breakpointMax($screen-size) {
+    @media (max-width: map-get($breakpoints, $screen-size)) {
+        @content;
+    }
+}
