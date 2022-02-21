@@ -15,7 +15,7 @@ import {
 
 const App = () => (
     <div className="App">
-        <Navbar />
+        {/* <Navbar /> */}
         <Header />
         {/* <About /> */}
         {/* <Features /> */}

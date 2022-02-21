@@ -10,12 +10,14 @@ $dotsColor: #d6ddf6;
 $text: #31353b;
 $white: #ffffff;
 $line: #f1f3fa;
+$btn: #F85A47;
 
-//RWD 550px, 700px, 1050px
+//RWD 450px, 700px, 1050px, 1400px
 $breakpoints: (
-    'sm': '34.375rem',
+    'sm': '28.125rem',
     'md': '43.75rem',
     'lg': '65.625rem',
+    'xl': '87.5rem'
 );
 
 @mixin breakpointMax($screen-size) {

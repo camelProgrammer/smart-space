@@ -1,0 +1,33 @@
+@import '../../index.scss';
+
+.navbar{
+    &-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        padding: 2.125rem 8.4375rem;
+    }
+
+    .navbar-links__container{
+        color: #000;
+        font-size: 0.8125rem;
+        font-weight: bold;
+        font-family: $Dm-Sans;
+        line-height: 1.0625rem;
+
+        ul{
+            display: flex;
+            flex-direction: row;
+
+            li{
+                cursor: pointer;
+                margin: 0 1.4375rem;
+
+                :hover{
+                    text-decoration: underline 1px;
+                }
+            }
+        }
+    }
+}
