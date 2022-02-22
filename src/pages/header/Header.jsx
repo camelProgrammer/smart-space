@@ -4,6 +4,9 @@ import './_header.scss';
 import home from '../../assets/icons/home.svg';
 import header from '../../assets/images/header.png';
 
+import Brand from '../../components/brand/Brand';
+import { airbnb, buzz, chase, gucc, microsoft, uber } from './imports';
+
 const Header = () => {
     return (
         <div className="header">
@@ -47,6 +50,15 @@ const Header = () => {
                 </div>
 
                 <div className="header-container__bg"></div>
+            </div>
+
+            <div className="header-brand">
+                <Brand imgUrl={airbnb} imgAlt="airbnb" />
+                <Brand imgUrl={buzz} imgAlt="buzz" />
+                <Brand imgUrl={chase} imgAlt="chase" />
+                <Brand imgUrl={gucc} imgAlt="gucc" />
+                <Brand imgUrl={microsoft} imgAlt="microsoft" />
+                <Brand imgUrl={uber} imgAlt="uber" />
             </div>
         </div>
     );

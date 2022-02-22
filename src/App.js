@@ -1,6 +1,7 @@
 import React from 'react';
 import './_App.scss';
 
+//Components
 import { Navbar, aboutCard, Feature, Testimonial } from './components';
 
 //Pages
@@ -16,10 +17,10 @@ import {
 const App = () => (
     <div className="App">
         {/* <Navbar /> */}
-        <Header />
-        {/* <About /> */}
+        {/* <Header /> */}
+        <About />
+        <Service />
         {/* <Features /> */}
-        {/* <Service /> */}
         {/* <Testimonials /> */}
         {/* <Contact /> */}
     </div>

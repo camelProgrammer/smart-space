@@ -1,0 +1,27 @@
+@import '../../_index.scss';
+
+.about{
+    margin: 0 7%;
+    margin-bottom: 14.0625rem;
+
+    @include breakpointMax(xl){
+        margin: 0 0 14.0625rem 0;
+    }
+
+    h2{
+        text-align: center;
+        margin-bottom: 4.375rem;
+    }
+
+    &__container{
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(240px, 1fr) );
+        justify-items: center;
+        align-items: center;
+        row-gap: 5rem;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+    .line{display: none;}
+}
