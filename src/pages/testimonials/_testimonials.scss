@@ -1,0 +1,86 @@
+@import '../../_index.scss';
+
+.testimonials{
+    margin-bottom: 15rem;
+    
+    h2{
+        margin: 0 10% 3.125rem 10%;
+
+        @include breakpointMax(md){
+            font-size: 2rem;
+            line-height: 2.8rem;
+        }
+    }
+
+    &-content{
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(240px, 380px) );
+        gap: 8% 3%;
+        max-width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 5.5rem auto;
+
+        @include breakpointMax(lg){
+            margin-bottom: 15rem;
+        }
+
+        @include breakpointMax(md){
+            row-gap: 5%;
+        }
+
+        @include breakpointMax(sm){
+            max-width: 85%;
+            margin: 0 auto 11rem auto;
+        }
+    }
+
+    &-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 80%;
+        margin: 3rem auto 0;
+
+        @include breakpointMax(lg){
+            width: 85%;
+        }
+
+        @include breakpointMax(md){
+            flex-direction: column;
+            row-gap: 4rem;
+            width: 90%;
+        }
+
+        &__brand{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            row-gap: 2rem;
+            column-gap: 2rem;
+            justify-content: center;
+        }
+
+        &__info{
+            max-width: 19rem;
+            margin-left: 6rem;
+
+            @include breakpointMax(md){
+                margin-left: 0;
+            }
+
+            p{
+                color: $text;
+                font-size: 1rem;
+                line-height: 1.5rem;
+
+                span{
+                    color: $lightBlue;
+                    text-decoration-line: underline;
+                }
+            }
+        }
+    }
+}
