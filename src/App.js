@@ -2,7 +2,7 @@ import React from 'react';
 import './_App.scss';
 
 //Components
-import { Navbar, aboutCard, Feature, Testimonial } from './components';
+import { Navbar, aboutCard, FeatureInfo, Testimonial } from './components';
 
 //Pages
 import {
@@ -20,7 +20,7 @@ const App = () => (
         {/* <Header /> */}
         <About />
         <Service />
-        {/* <Features /> */}
+        <Features />
         <Testimonials />
         {/* <Contact /> */}
     </div>

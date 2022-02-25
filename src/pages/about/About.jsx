@@ -20,7 +20,7 @@ const About = () => {
                     text="Conveying or northward offending admitting perfectly my. Colonel gravit and moonlight."
                 />
 
-                <img class="line" src={line} alt="line" />
+                <img className="line" src={line} alt="line" />
 
                 <Card
                     imgUrl={card02}
@@ -29,7 +29,7 @@ const About = () => {
                     text="Conveying or northward offending admitting perfectly my. Colonel gravit and moonlight."
                 />
 
-                <img class="line" src={line} alt="line" />
+                <img className="line" src={line} alt="line" />
 
                 <Card
                     imgUrl={card03}

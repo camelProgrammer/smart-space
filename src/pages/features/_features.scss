@@ -1,0 +1,117 @@
+@import '../../_index.scss';
+
+.features{
+    h2{
+        text-align: center;
+
+        @include breakpointMax(md){
+            font-size: 2rem;
+            line-height: 2.6rem
+        }
+    }
+
+    &-main{
+        display: flex;
+        flex-direction: row;
+        background: $lightBg;
+        width: 80%;
+        
+        column-gap: 4.375rem;
+        margin: 5.9375rem 10% 12rem 10%;
+        padding: 2.6rem 0 5rem 0;
+
+        @include breakpointMax(lg){
+            margin-top: 3rem;
+            flex-direction: column;
+        }
+    }
+
+    &-container{
+        display: flex;
+        justify-content: center;
+
+        img{
+            @include breakpointMax(lg){
+                width: 70%;
+                margin-bottom: 3.5rem;
+            }
+        }
+    }
+
+    &-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+
+        @include breakpointMax(lg){
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        &__heading{
+            display: flex;
+            justify-content: center;
+            color: #000000;
+            font-size: 1.9375rem;
+            font-weight: 600;
+            line-height: 2.625rem;
+            margin-bottom: 1.75rem;
+            
+            @include breakpointMax(lg){
+                text-align: center;
+            }
+
+            @include breakpointMax(md){
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
+        }
+
+        &__text{
+            width: 85%;
+            margin-bottom: 2.625rem;
+
+            @include breakpointMax(lg){
+                margin: 0 auto 2.625rem auto;
+            }
+        }
+
+        &__info{
+            display: flex;
+            justify-content: center;
+            gap: 2rem 5rem;
+            flex-wrap: wrap;
+            margin-bottom: 3.375rem;
+        }
+
+        &__btn{
+            font-family: $Inter;
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 1.1rem;
+            line-height: 1.4rem;
+            text-align: center;
+            cursor: pointer;
+
+            min-width: 85%;
+            max-width: 90%;
+            height: 3.5rem;
+            background: $orange;
+            box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481), 0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185), 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+            border-radius: 0.3125rem;
+
+            @include breakpointMax(lg){
+                margin: 0 auto;
+            }
+
+            @include breakpointMax(md){
+                font-size: 0.9rem;
+            }
+
+            @include breakpointMax(sm){
+                height: 5rem;
+            }
+        }
+    }
+}

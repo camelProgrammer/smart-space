@@ -81,14 +81,15 @@ const Testimonials = () => {
                         personAlt={item.personAlt}
                         personName={item.personName}
                         personLocation={item.personLocation}
+                        key={index}
                     />
                 ))}
             </div>
 
             <div className="testimonials-container">
                 <div className="testimonials-container__brand">
-                    {brandsData.map((item) => (
-                        <Brand brandUrl={item.brandUrl} />
+                    {brandsData.map((item, index) => (
+                        <Brand brandUrl={item.brandUrl} key={index} />
                     ))}
                 </div>
 
