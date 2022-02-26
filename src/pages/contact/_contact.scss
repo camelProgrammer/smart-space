@@ -1,0 +1,103 @@
+@import '../../_index.scss';
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-heading{
+        color: $text;
+        font-weight: bold;
+        font-size: 2.8125rem;
+        letter-spacing: 0.02em;
+        margin-bottom: 0.6875rem;
+
+        @include breakpointMax(md){
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        @include breakpointMax(sm){
+            font-size: 2.2rem;
+            text-align: center;
+            margin-bottom: 0.8rem;
+        }
+    }
+
+    &-text{
+        color: $text;
+        font-weight: bold;
+        font-size: 1.4375rem;
+        letter-spacing: 0.05rem;
+        margin-bottom: 2.125rem;
+
+        @include breakpointMax(md){
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        @include breakpointMax(sm){
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+
+    &-email{
+        display: flex;
+        flex-direction: row;
+        height: 5.375rem;
+        width: 40%;
+        justify-content: space-between;
+
+        outline: none;
+        padding: 0 1rem;
+        background: #FFFFFF;
+        box-shadow: 0px 163px 80px rgba(0, 0, 0, 0.04), 0px 105.648px 46.8519px rgba(0, 0, 0, 0.0303704), 0px 62.7852px 25.4815px rgba(0, 0, 0, 0.0242963), 0px 32.6px 13px rgba(0, 0, 0, 0.02), 0px 13.2815px 6.51852px rgba(0, 0, 0, 0.0157037), 0px 3.01852px 3.14815px rgba(0, 0, 0, 0.00962963);
+
+        @include breakpointMax(xl){
+            width: 50%;
+        }
+
+        @include breakpointMax(md){
+            width: 75%;
+        }
+
+        @include breakpointMax(sm){
+            width: 90%;
+        }
+
+        &__input{
+            font-weight: 600;
+            font-size: 1rem;
+            letter-spacing: 0.05rem;
+            color: $text;
+            height: 5.375rem;
+            align-self: center;
+            outline: none;
+            width: 65%;
+
+            &::placeholder{
+                color: #2c2d30;
+                font-size: 1.0625rem;
+                opacity: 0.6;
+                font-weight: 500;
+                letter-spacing: 0.05rem;
+            }
+        }
+
+        &__btn{
+            align-self: center;
+            color: #FFFFFF;
+            font-family: $Dm-Sans;
+            font-weight: 500;
+            font-size: 1.125rem;
+            letter-spacing: 0.05rem;
+
+            width: 25%;
+            height: 3.75rem;
+            background: $orange;
+            box-shadow: 0px 100px 80px rgba(248, 90, 71, 0.07), 0px 64.8148px 46.8519px rgba(248, 90, 71, 0.0531481), 0px 38.5185px 25.4815px rgba(248, 90, 71, 0.0425185), 0px 20px 13px rgba(248, 90, 71, 0.035), 0px 8.14815px 6.51852px rgba(248, 90, 71, 0.0274815), 0px 1.85185px 3.14815px rgba(248, 90, 71, 0.0168519);
+        }
+    }
+}
