@@ -1,0 +1,72 @@
+@import '../../_index.scss';
+
+.footer{
+    width: 85%;
+    border-top: 2px solid #DEDFE1;
+    padding-top: 3.75rem;
+    margin: 0 auto 2.25rem auto;
+    justify-content: center;
+    align-items: center;
+
+    @include breakpointMax(lg){
+        width: 90%;
+    }
+
+    &-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+
+        justify-content: center;
+        align-items: center;
+
+        @include breakpointMax(md){
+            flex-direction: column;
+        }
+
+        &__logo{
+            width: 8.75rem;
+
+            @include breakpointMax(lg){
+                margin-bottom: 2rem;
+            }
+        }
+
+        &__container{
+            display: flex;
+            flex-direction: row; 
+            flex-wrap: wrap;
+            row-gap: 1rem;
+            justify-content: center;
+
+            &_item{
+                color: $text;
+                font-family: $Dm-Sans;
+                font-weight: bold;
+                font-size: 0.8125rem;
+                line-height: 1.0625rem;
+                text-align: center;
+
+                width: 3.4375rem;
+                margin: 0px 2.5rem;
+
+                &:last-child{
+                    margin-right: 0;
+
+                    @include breakpointMax(xl){
+                        margin-right: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    &-copyright{
+        color: $text;
+        font-family: $Dm-Sans;
+        font-weight: bold;
+        font-size: 0.75rem;
+        text-align: center;
+    }
+}

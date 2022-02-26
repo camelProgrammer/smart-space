@@ -12,6 +12,7 @@ import {
     Service,
     Testimonials,
     Contact,
+    Footer,
 } from './pages';
 
 const App = () => (
@@ -23,6 +24,7 @@ const App = () => (
         <Features />
         <Testimonials />
         <Contact />
+        <Footer />
     </div>
 );
 
