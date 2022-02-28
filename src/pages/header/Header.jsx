@@ -2,12 +2,23 @@ import React from 'react';
 import './_header.scss';
 
 // Images
-import home from '../../assets/icons/home.svg';
-import header from '../../assets/images/header.png';
+import {
+    airbnb,
+    buzz,
+    chase,
+    gucc,
+    microsoft,
+    uber,
+    home,
+    header,
+    facebook,
+    instagram,
+    twitter,
+    linkedin,
+} from './imports';
 
 // Components
 import Brand from '../../components/brand/Brand';
-import { airbnb, buzz, chase, gucc, microsoft, uber } from './imports';
 
 const brandsData = [
     {
@@ -83,10 +94,10 @@ const Header = () => {
                 <img src={header} alt="header" />
 
                 <div className="header-container__social">
-                    <img src={home} alt="facebook" />
-                    <img src={home} alt="instagram" />
-                    <img src={home} alt="twitter" />
-                    <img src={home} alt="linkedin" />
+                    <img src={facebook} alt="facebook" />
+                    <img src={instagram} alt="instagram" />
+                    <img src={twitter} alt="twitter" />
+                    <img src={linkedin} alt="linkedin" />
                 </div>
 
                 <div className="header-container__bg"></div>
