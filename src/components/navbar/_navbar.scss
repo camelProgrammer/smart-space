@@ -1,4 +1,4 @@
-@import '../../index.scss';
+@import '../../_index.scss';
 
 .navbar{
     &-links{
@@ -7,27 +7,76 @@
         justify-content: space-between;
 
         padding: 2.125rem 8.4375rem;
-    }
+        
+        @include breakpointMax(lg){
+            padding: 2.125rem 5%;
+        }
 
-    .navbar-links__container{
-        color: #000;
-        font-size: 0.8125rem;
-        font-weight: bold;
-        font-family: $Dm-Sans;
-        line-height: 1.0625rem;
+        @include breakpointMax(md){
+            padding: 2.125rem 5%;
+            position: relative;
+        }
 
-        ul{
-            display: flex;
-            flex-direction: row;
+        @include breakpointMax(md){
+            background: rgba($cyan, 1);
+        }
 
-            li{
-                cursor: pointer;
-                margin: 0 1.4375rem;
+        &__container{
+            color: #000;
+            font-size: 0.8125rem;
+            font-weight: bold;
+            font-family: $Dm-Sans;
+            line-height: 1.0625rem;
+    
+            &_list{
+                display: flex;
+                flex-direction: row;
 
-                :hover{
-                    text-decoration: underline 1px;
+                @include breakpointMax(md){
+                    flex-direction: column;
+                    position: absolute;
+                    left: 0;
+                    padding: 0 2rem 1rem 2rem;
+                    margin-top: 2.5rem;
+                    display: none
+                }
+
+                &--small{
+                    display: none;
+                   
+                    @include breakpointMax(md){
+                        display: block;
+                        border-radius: 0 0 .6rem;
+                        background: rgba($cyan, 1);
+                    }
+                }
+    
+                li{
+                    cursor: pointer;
+                    margin: 0 1.4375rem;
+
+                    @include breakpointMax(md){
+                    margin: 0.3rem 1rem;
+                }
+    
+    
+                    :hover{
+                        text-decoration: underline 1px;
+                    }
                 }
             }
         }
     }
+
+    &-hamburger{
+        display: none;
+        
+        @include breakpointMax(md){
+            display: block;
+        }
+    }
+}
+
+.open{
+    display: none;
 }

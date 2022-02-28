@@ -17,14 +17,14 @@ import {
 
 const App = () => (
     <div className="App">
-        {/* <Navbar /> */}
+        <Navbar />
         <Header />
-        {/* <About /> */}
-        {/* <Service /> */}
-        {/* <Features /> */}
-        {/* <Testimonials /> */}
-        {/* <Contact /> */}
-        {/* <Footer /> */}
+        <About />
+        <Service />
+        <Features />
+        <Testimonials />
+        <Contact />
+        <Footer />
     </div>
 );
 

@@ -5,7 +5,7 @@
     flex-direction: row;
     column-gap: 5rem;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 15rem auto;
 
     @include breakpointMax(md){
         flex-direction: column;
@@ -203,7 +203,7 @@
         &__bg{
             height: 100vh;
             width: 35%;
-            background: #C7FFFF;
+            background: $cyan;
             top: 0;
             right: 0;
             position: absolute;
