@@ -3,7 +3,7 @@ import './_contact.scss';
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div className="contact" id="Contact">
             <h2 className="contact-heading">Get Our Newsletter</h2>
 
             <p className="contact-text">To join the worldwide community</p>
@@ -18,7 +18,7 @@ const Contact = () => {
 
                 <button className="contact-email__btn" type="submit">
                     Send Now
-                </button> 
+                </button>
             </div>
         </div>
     );

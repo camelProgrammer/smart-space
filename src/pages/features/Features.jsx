@@ -44,7 +44,7 @@ const Button = () => (
 
 const features = () => {
     return (
-        <div className="features">
+        <div className="features" id="Portfolio">
             <h2 className="heading">Featured Listing of the Week</h2>
 
             <div className="features-main">

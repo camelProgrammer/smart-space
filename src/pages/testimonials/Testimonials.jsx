@@ -67,7 +67,7 @@ const brandsData = [
 
 const Testimonials = () => {
     return (
-        <div className="testimonials">
+        <div className="testimonials" id="Blog">
             <h2 className="heading">
                 Loved by businesses, and individuals across the globe.
             </h2>

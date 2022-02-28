@@ -44,7 +44,7 @@ const brandsData = [
 
 const Header = () => {
     return (
-        <div className="header">
+        <div className="header" id="Home">
             <div className="header-content">
                 <p className="header-content--orange">
                     RESIDENTIAL & OFFICE SPACES

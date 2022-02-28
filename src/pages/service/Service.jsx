@@ -6,7 +6,7 @@ import { service01, service02, service03 } from './imports';
 
 const Service = () => {
     return (
-        <div className="service">
+        <div className="service" id="Service">
             <div className="service-container">
                 <div className="service-container__informations">
                     <h2 className="heading">Best Real Estate Deals</h2>

@@ -9,7 +9,7 @@ import { card01, card02, card03, line } from './imports';
 
 const About = () => {
     return (
-        <div className="about" id="about">
+        <div className="about" id="About">
             <h2 className="heading">How it works?</h2>
 
             <div className="about__container">

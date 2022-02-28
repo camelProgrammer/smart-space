@@ -10,22 +10,22 @@ const Menu = () => (
     <>
         <ul className="navbar-links__container_list">
             <li>
-                <a href="#">Home</a>
+                <a href="#Home">Home</a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a href="#About">About</a>
             </li>
             <li>
-                <a href="#">Service</a>
+                <a href="#Service">Service</a>
             </li>
             <li>
-                <a href="#">Portfolio</a>
+                <a href="#Portfolio">Portfolio</a>
             </li>
             <li>
-                <a href="#">Blog</a>
+                <a href="#Blog">Blog</a>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <a href="#Contact">Contact</a>
             </li>
         </ul>
     </>
