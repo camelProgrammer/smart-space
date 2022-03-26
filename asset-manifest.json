@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/smart-space/static/css/main.e934d5e5.css",
+    "main.js": "/smart-space/static/js/main.540bc31a.js",
+    "static/media/features.svg": "/smart-space/static/media/features.4368ea623e03d664b351f28781d0d772.svg",
+    "static/media/header.png": "/smart-space/static/media/header.06e9b72c325f579b1292.png",
+    "static/media/service01.png": "/smart-space/static/media/service01.b70126a1a2fdeb0f934c.png",
+    "static/media/service03.png": "/smart-space/static/media/service03.5d9cb1f43951d6571508.png",
+    "static/media/service02.png": "/smart-space/static/media/service02.2d4c8c1027cce003f1fd.png",
+    "static/media/logo.svg": "/smart-space/static/media/logo.b84c1dcdfc2fafc738387e8b3ab38b75.svg",
+    "static/media/cisco.svg": "/smart-space/static/media/cisco.11d760a703d4315a143dee68aec5c9d9.svg",
+    "static/media/microsoft.svg": "/smart-space/static/media/microsoft.9cfb0c34a5b0dd47722a2efd55c019a6.svg",
+    "static/media/airbnb.svg": "/smart-space/static/media/airbnb.66f8f705428232a30f9b46e9efc4359a.svg",
+    "static/media/card03.svg": "/smart-space/static/media/card03.2268588953f89ce056495d8602a0e486.svg",
+    "static/media/card02.svg": "/smart-space/static/media/card02.35e6fe8f97be1ac9d8648cd5f6d7a24f.svg",
+    "static/media/line.svg": "/smart-space/static/media/line.3e4203392c20898131a6d35905e2b9d7.svg",
+    "static/media/gucc.svg": "/smart-space/static/media/gucc.2c2a0ecd742fd9d72c5bb56080314b45.svg",
+    "static/media/uber.svg": "/smart-space/static/media/uber.1774eccd21fb45321c8f8d81b53dc58c.svg",
+    "static/media/ebay.svg": "/smart-space/static/media/ebay.147764ae0015bf778765f3583ef1e112.svg",
+    "static/media/buzz.svg": "/smart-space/static/media/buzz.777199112d3b8527fd680742c7cba884.svg",
+    "static/media/chase.svg": "/smart-space/static/media/chase.07acf18f9a19c9955ce6ee9f837fe60f.svg",
+    "static/media/instagram.svg": "/smart-space/static/media/instagram.6ed2cb5264b2240800b4eca149b65721.svg",
+    "static/media/card01.svg": "/smart-space/static/media/card01.b432efe8aed2bb84a9a50a3f34fd2c55.svg",
+    "static/media/twitter.svg": "/smart-space/static/media/twitter.5ae9f4cf80c1f851b13c3fb4494b8d39.svg",
+    "index.html": "/smart-space/index.html",
+    "static/media/linkedin.svg": "/smart-space/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
+    "static/media/home.svg": "/smart-space/static/media/home.98e47ec6eef9d7ca7bbf7fadd4d6a54b.svg",
+    "static/media/hamburgerClose.svg": "/smart-space/static/media/hamburgerClose.1fa99e29c0549b94f7d884539063e3c3.svg",
+    "static/media/hamburgerOpen.svg": "/smart-space/static/media/hamburgerOpen.8e385bf115f732122bf96b6c7bbdc22c.svg",
+    "static/media/facebook.svg": "/smart-space/static/media/facebook.acd66cb0a8fe91db24c8a48265cf4f25.svg",
+    "main.e934d5e5.css.map": "/smart-space/static/css/main.e934d5e5.css.map",
+    "main.540bc31a.js.map": "/smart-space/static/js/main.540bc31a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e934d5e5.css",
+    "static/js/main.540bc31a.js"
+  ]
+}
